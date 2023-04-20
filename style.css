@@ -1,0 +1,29 @@
+#keyboard {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.key {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.space {
+  width: 200px;
+}
+
+.selected {
+  background-color: yellow;
+}
+
+
